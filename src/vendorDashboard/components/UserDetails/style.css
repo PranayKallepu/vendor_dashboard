@@ -1,0 +1,22 @@
+
+.user-details-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-image{
+    width: 200px;
+}
+.user-details-section ul {
+    border: 1px solid red;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-details-section ul li{
+    padding-bottom: 20px;
+    font-weight: bold;
+    list-style: none;
+}

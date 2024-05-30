@@ -1,0 +1,59 @@
+
+   /* Register CSS */
+   
+   .register-section {
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+  }
+  
+  .auth-form label {
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+  }
+  
+  .auth-form {
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+    height: 2rem;
+    font-size: medium;
+  }
+  .passBox{
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+  .show-password{
+    padding-right: 20px;
+  
+  }
+  .eyeBtn{
+    
+    border-width: 0px;
+    padding: 8px;
+    
+  }
+
+
+  .loader-section {
+    z-index: 10000;
+  }
+
+  .button{
+    cursor: pointer;
+  }

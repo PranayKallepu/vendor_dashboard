@@ -1,0 +1,39 @@
+/* products table */
+
+.productSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-table {
+    width: 80vw;
+    border-collapse: collapse;
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid rgb(128, 128, 128);
+    padding: 8px;
+  }
+  
+  .product-table th {
+    text-align: left;
+    background-color: rgb(47, 77, 212);
+    color: white;
+  }
+  
+  .deleteBtn {
+    color: rgb(221, 16, 16);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: gray;
+    font-weight: bold;
+  }
+  .deleteBtn:hover{
+    background-color: rgb(221, 16, 16);
+    color: #ffffff;
+  }

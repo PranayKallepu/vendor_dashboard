@@ -1,0 +1,18 @@
+/* not found */
+
+.errorSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .errorSection h1 {
+    font-size: 4rem;
+  }
+  
+  h3 {
+    color: #d7263d;
+  }
