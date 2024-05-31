@@ -7,7 +7,7 @@
     color: white;
     padding-right: 20px;
     width: 100%;
-    height: 50px;
+    height: 80px;
     margin-bottom: 20px;
   }
   
@@ -82,8 +82,9 @@
     display: flex;
     justify-content: start;
   }
-  .userAuth span {
-    margin-left: -1px;
+
+  .userAuth-span{
+    font-size: 18px;
     color: #ffffff;
     text-decoration: none;
   }

@@ -144,15 +144,15 @@ useEffect(() => {
           {!showLogOut ? (
             <>
               <Link to="/login">
-                <span style={{color: '#ffffff'}} onClick={showLoginHandler}>Login /</span>
+                <span   className='userAuth-span' onClick={showLoginHandler}>Login /</span>
               </Link>
               <Link to="/register">
-                <span style={{color: '#ffffff'}} onClick={showRegisterHandler}>Register</span>
+                <span className='userAuth-span' onClick={showRegisterHandler}>Register</span>
               </Link>
             </>
           ) : (
             <Link to="/login">
-              <span onClick={logOutHandler} className="logout">
+              <span className='userAuth-span' onClick={logOutHandler} value="logout">
               Logout
             </span>
             </Link>
