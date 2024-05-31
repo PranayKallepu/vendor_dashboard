@@ -30,9 +30,7 @@ const Home = () => {
           </div>
           <div className="suggest-sec">
             <h4 className="message">If you want to Add Restauarnt in MealMOB Food Delivery Website</h4>
-            <h2 className='heading'>
-              Please Login
-            </h2>
+            
           </div>
         </>}
 
