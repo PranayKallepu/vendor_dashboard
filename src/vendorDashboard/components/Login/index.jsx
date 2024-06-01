@@ -51,7 +51,7 @@ const Login = () => {
         if (vendorResponse.ok) {
           const vendorFirmId = vendorData.vendorFirmId;
           if (vendorFirmId === null) {
-            navigate('/add-firm')
+            navigate('/') // '/add-firm'
             window.location.reload();
           }
           const vendorFirmName = vendorData.vendor.firm[0].firmName;
